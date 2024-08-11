@@ -4,7 +4,6 @@ document.getElementById('registrationForm').addEventListener('submit', async (ev
     const name = document.getElementById('username').value;
     const pass = document.getElementById('password').value;
 
-    // Create a query string with the parameters
     const queryString = new URLSearchParams({
         name: name,
         pass: pass
